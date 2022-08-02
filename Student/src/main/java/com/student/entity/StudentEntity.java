@@ -17,6 +17,7 @@ public class StudentEntity implements Serializable {
 
 	@Id
 	@GeneratedValue
+	
 	private long id;
 
 	@Column(nullable = false)

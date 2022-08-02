@@ -20,7 +20,15 @@ public class StudentEntity implements Serializable {
 	private long id;
 
 	@Column(nullable = false)
-	private String userId;
+	private String studentId;
+
+	public String getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(String studentId) {
+		this.studentId = studentId;
+	}
 
 	@Column(nullable = false, length = 50)
 	private String firstName;
@@ -39,13 +47,6 @@ public class StudentEntity implements Serializable {
 		this.id = id;
 	}
 
-	public String getUserId() {
-		return userId;
-	}
-
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
 
 	public String getFirstName() {
 		return firstName;

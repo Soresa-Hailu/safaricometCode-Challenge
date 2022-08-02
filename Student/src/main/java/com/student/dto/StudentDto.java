@@ -8,7 +8,7 @@ public class StudentDto implements Serializable {
 	
 	private static final long serialVersionUID = -3678285051170734391L;
 	private long id;
-	private String userId;
+	private String studentId;
 	private String firstName;
 	private String lastName;
 	private String email;
@@ -20,11 +20,11 @@ public class StudentDto implements Serializable {
 	public void setId(long id) {
 		this.id = id;
 	}
-	public String getUserId() {
-		return userId;
+	public String getStudentId() {
+		return studentId;
 	}
-	public void setUserId(String userId) {
-		this.userId = userId;
+	public void setStudentId(String userId) {
+		this.studentId = userId;
 	}
 	public String getFirstName() {
 		return firstName;

@@ -10,7 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-@Entity(name = "users")
+@Entity(name = "students")
 public class StudentEntity implements Serializable {
 
 	private static final long serialVersionUID = -7702063606321069459L;

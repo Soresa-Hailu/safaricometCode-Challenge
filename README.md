@@ -1,6 +1,10 @@
 # safaricometCode-Challenge
 
 the api runs: http://localhost:8080/students
+on your mysql create studentCRUD database by using those command below
+create schema studentCRUD;
+use studentCRUD;
+
 you can use post method to create student information by inserting
 {
     "studentId":101,

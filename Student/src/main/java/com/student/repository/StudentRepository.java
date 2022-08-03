@@ -9,7 +9,7 @@ import com.student.entity.StudentEntity;
 @Repository
 public interface StudentRepository extends PagingAndSortingRepository<StudentEntity, Long>{
 
-	StudentEntity findByStudentId(String userId);
+	StudentEntity findByStudentId(String studentId);
 
 	StudentEntity findStudentByEmail(String email);
 

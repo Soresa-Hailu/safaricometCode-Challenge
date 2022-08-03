@@ -6,18 +6,18 @@ import java.util.List;
 
 public class StudentRest {
 
-	private String userId;
+	private String studentId;
 	private String firstName;
 	private String lastName;
 	private String email;
 
 
-	public String getUserId() {
-		return userId;
+	public String getStudentId() {
+		return studentId;
 	}
 
-	public void setUserId(String userId) {
-		this.userId = userId;
+	public void setStudentId(String studentId) {
+		this.studentId = studentId;
 	}
 
 	public String getFirstName() {
